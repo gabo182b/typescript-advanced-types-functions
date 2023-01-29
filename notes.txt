@@ -1,0 +1,2 @@
+commands
+npx tsc --init => create new tsconfig.josn
