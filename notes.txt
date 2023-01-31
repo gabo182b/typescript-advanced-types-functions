@@ -1,2 +1,5 @@
 commands
 npx tsc --init => create new tsconfig.josn
+
+transpilation with ts-node
+npx ts-node
