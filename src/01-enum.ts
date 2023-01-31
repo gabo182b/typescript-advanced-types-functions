@@ -1,12 +1,11 @@
 // TypeScript provides both numeric and string-based enums.
-enum ROLES {
-  id = 1,
+export enum ROLES {
   ADMIN = 'admin',
   SELLER = 'seller',
   CUSTOMER = 'customer',
 }
 
-type User = {
+export type User = {
   username: string;
   role: ROLES;
 };
